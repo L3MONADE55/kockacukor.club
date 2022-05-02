@@ -1,0 +1,95 @@
+body, header {
+	background-color: rgb(221, 221, 221);
+	margin: 0% 20% 0% 20%;
+	text-align: justify;
+	font-size: 17px;
+	font-family: Tahoma;
+}
+
+h1 {
+	font-family: Tahoma;
+	text-align: center;
+}
+
+.idezetek {
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+}
+
+.gombs {
+	text-align: center;
+}
+
+.text {
+	font-family: Tahoma;
+	text-align: justify;
+	font-size: 17px;
+}
+
+figure {
+	text-align: center;
+	margin: auto;
+	padding: 45px;
+}
+
+img {
+	border: solid 5px grey;
+}
+
+.column1 {
+	float:left;
+	width:47%
+}
+
+.column2 {
+	float:right;
+	width:47%;
+	margin-left:30px;
+	margin-bottom: 148px;
+}
+
+.under {
+	text-decoration: underline;
+}
+
+.felsorolas {
+	font-size: 1,2rem;
+	float: left;
+}
+
+table {
+	text-align: center;
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+	margin: 5% 0% 25% 0%;
+	float: right;
+	text-align: right;
+}

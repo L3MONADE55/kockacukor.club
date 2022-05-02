@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<!---------- Meta információk ---------->
+	<meta charset="utf-8">
+	<meta name="author" content="John Doe">
+	<meta name="description" content="Második HTML fájl">
+	<meta name="keywords" content="html, css, html5, menu">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!---------- Google Fonts ---------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	
+	<!-------- Bootstrap Icons -------->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	
+	<!-------- Font Awesome Icons -------->
+	<script src="https://kit.fontawesome.com/02412993d6.js" crossorigin="anonymous"></script>
+
+	<!-------- CSS állomány ---------->
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	
+	<title>Counter Strike PRO</title>
+	
+</head>
+
+<body >
+	
+	<!---------- NAVIGÁCIÓ ---------->
+	<nav>
+		<img src="img/csgo-logo.png" width="100">
+		<ul>
+			<li><a href="#" class="whitet">Kezdőlap</a></li>
+			<li><a href="#bevezeto" class="whitet">Bevezető</a></li>
+			<li><a href="#versenyek" class="whitet">Versenyek</a></li>
+			<li><a href="#skinek" class="whitet">Skinek</a></li>
+			<li><a href="#galeria" class="whitet">Galéria</a></li>
+			<li><a href="#kapcsolat" class="whitet">Kapcsolat</a></li>
+			<li><span onclick="openNav()" class="whitet"><i class="fa-solid fa-bars"></i></span></li>
+		</ul>
+	</nav>
+	
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">Kezdőlap</a>
+		<a href="#bevezeto">Bevezető</a>
+		<a href="#versenyek">Versenyek</a>
+		<a href="#skinek">Skinek</a>
+		<a href="#galeria">Galéria</a>
+		<a href="#kapcsolat">Kapcsolat</a>
+	</div>
+	
+	<header>
+		<div class="relative">
+			<div class="introtext text-white uppercase">
+				<h3>Counter Strike: Global Offensive</h3>
+				<p>Kisokos</p>
+			</div>
+		</div>
+	</header>
+	<!---------- TARTALMI RÉSZ ---------->
+	<section id="jatek">
+		<div class="container">
+		<h2 class="text-center">A játékról</h2>
+		<p class="text-center">A Counter-Strike: Global Offensive (CS:GO) kiterjeszti azt a csapatalapú akciójátékot, amelynek 19 évvel ezelőtti megjelenésekor úttörője volt. A CS:GO új pályákat, karaktereket, fegyvereket és játékmódokat mutat be, és a klasszikus CS-tartalmak (de_dust2 stb.) frissített verzióit is elhozza. Vesd bele magad a terroristák elleni küzdelem hihetetlenül valósághű formájába ezzel a rendkívül népszerű, csapatjátékkal. Szövetkezz csapattársakkal a stratégiai küldetésék végrehajtására. Foglald el az ellenséges állásokat. Mentsd meg a túszokat. A részvételed befolyásolja a csapat sikerét. A csapatod sikere befolyásolja a szerepedet.<p>
+		</div>
+	</section>
+	
+	<section id="bevezeto">
+		<div class="container-fluid bg-primary clearfix">
+			<h2 class="text-center">Counter Strike: Global Offensive</h2>
+			<p class="intro">Mit kínál a játék?</p>
+				<div class="box">
+						<i class="fa-solid fa-server"></i>
+					<h3>01 | Új szerverek</h3>
+					<p>A korszerű szerverek lehetővé teszik a teljeskörű játékélményt, önfeledten belemerülhetünk kedvenc játékunkba a csatlakozási hibák, és kapcsolatra való válaszok meg nem érkezése nélül, ezzel egy eddig nem látott játékélményt nyújtva.</p>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-shield-heart"></i>
+					<h3>02 | Megbízhatóság</h3>
+					<p>Az elmúlt 12 évben továbbra is a világ egyik legtöbbet játszott játéka maradt, versengő játékbajnokságok főszereplője, és világszerte több mint 25 millió darabot értékesítettünk a franchise-ból. A CS:GO ígéretet mutat a Counter-Strike díjnyertes játékmódjának kiterjesztésére és eljuttatja azt a játékosoknak PC-n, valamint a következő generációs konzolokon és Macen.”</p>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-medal"></i>
+					<h3>03 | E-Sport</h3>
+					<p>A játék az e-sportok terén a legnépszerűbb játékok közé sorolható. Évente több kisebb bajnokságot, illetve 1-2, Valve által szponzorált bajnokságokat, úgynevezett major eseményeket szerveznek. Eddig 12 ilyen esemény valósult meg, ebből 9 Európában.</p>
+				</div>
+		</div>
+	</section>
+	
+	<section id="versenyek">
+		<div class="container clearfix">
+			<h2 class="text-center">Major-ök</h2>
+			<p class="intro">Olyan versenyek, melyen nemzetközi csapatok mérettetik össze erejüket</p>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref1.jpeg" target="_blank">
+						<img src="img/ref1.jpeg" alt="Major Winners">
+					</a>
+					<p class="text-center">ELEAGUE Major: Atlanta 2017</p>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref2.jpg" target="_blank">
+						<img src="img/ref2.jpg" alt="Major Winners">
+					</a>
+					<p class="text-center">PGL Major Kraków 2017</p>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref3.jpg" target="_blank">
+						<img src="img/ref3.jpg" alt="Major Winners">
+					</a>
+					<p class="text-center">ELEAGUE Major: Boston 2018</p>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref4.png" target="_blank">
+						<img src="img/ref4.png" alt="Major Winners">
+					</a>
+					<p class="text-center">FACEIT Major: London 2018</p>
+				</div>
+			</div>
+			
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref5.jpg" target="_blank">
+						<img src="img/ref5.jpg" alt="Major Winners">
+					</a>
+					<p class="text-center">Intel Extreme Katowice Major 2019</p>
+				</div>
+			</div>
+			
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref6.jpg" target="_blank">
+						<img src="img/ref6.jpg" alt="Major Winners">
+					</a>
+					<p class="text-center">StarLadder Berlin Major 2019</p>
+				</div>
+			</div>
+			
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref7.jpg" target="_blank">
+						<img src="img/ref7.jpg" alt="Major Winners">
+					</a>
+					<p class="text-center">PGL Major Stockholm 2021</p>
+				</div>
+			</div>
+			
+			<div class="responsive">
+				<div class="card">
+					<a href="img/ref8.jpg" target="_blank">
+						<img src="img/ref8.jpg" alt="Major Winners">
+					</a>
+					<p class="text-center">PGL Major Antwerp 2022</p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section id="skinek">
+		<div class="container-fluid bg-primary clearfix">
+			<h2 class="text-center">Skinek</h2>
+			<p class="intro">Fegyverkinézetek</p>
+				<div class="box">
+						<i class="fa-solid fa-child-rifle"></i>
+					<h3>Mire jók és miért olyan drágák?</h3>
+					<p>A játékban a fegyverkinézeteket az angolból átvéve skineknek hívjuk, ezek különböző festéseket/mintákat adnak a fegyvereknek. Mára már hatalmas értékű inventoryk léteznek, tele szebbnél szebb és borzasztó értékes skinekkel. Van köztük néhány olyan is, amik alapvetően nem feltétlen számítanak ritkaságnak, ám mindegyiknek van egy olyan skin mintázata, amiből már sokkal kevesebb létezik és ezek az elrejtett apróságok a skinek értékeit is nagyon meg tudják dobni. Ezeknek értéke azért lehet ilyen hatalmas értékű, mivel van rá kereslet. Ki ne akarna több száz eurós fegyverfestéseket a virtuális kezébe fogni? Ráadásul az árakat nagyban befolyásolja a ritkaság is.</p>
+				</div>
+		</div>
+	</section>
+	
+	<section id="galeria">
+		<div class="container clearfix">
+			<h2 class="text-center">A legszebb skinek</h2>
+			<p class="intro">Az játékosok nagy része ezeket a kinézeteket szívleli a leginkább</p>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/skin1.jpeg" target="_blank">
+						<img src="img/skin1.jpeg" alt="Skin">
+					</a>
+					<p class="text-center">Water Elemental (Glock)</p>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/skin2.jpeg" target="_blank">
+						<img src="img/skin2.jpeg" alt="Skin">
+					</a>
+					<p class="text-center">Neo Noir (AWP)</p>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="card">
+					<a href="img/skin4.jpeg" target="_blank">
+						<img src="img/skin4.jpeg" alt="Skin">
+					</a>
+					<p class="text-center">Neon Rider (AK-47)</p>
+				</div>
+			</div>
+			
+			<div class="responsive">
+				<div class="card">
+					<a href="img/skin5.jpeg" target="_blank">
+						<img src="img/skin5.jpeg" alt="Skin">
+					</a>
+					<p class="text-center">Disco Tech (MAC-10)</p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	
+		<!---------- KAPCSOLAT ---------->
+	<section id="kapcsolat" class="contact clearfix">
+		<div class="container text-white">
+			<h2 class="text-center whitet">Kapcsolat</h2>
+			<p class="intro">Elérhetőség</p>
+			<div class="contact-box">
+				<div class="contact-left">
+					<div class="info">
+						<div class="address">
+							<i class="bi bi-house-door-fill"></i>
+							<h4>Cím:</h4>
+							<p>8960 Lenti, Sugár út 16.</p>
+						</div>
+						<div class="email-address">
+							<i class="bi bi-envelope-fill"></i>
+							<h4>Email:</h4>
+							<p>envagyok@azapad.hu</p>
+						</div>
+						<div class="phone">
+							<i class="bi bi-phone-vibrate-fill"></i>
+							<h4>Telefon:</h4>
+							<p>+3630 218-6875</p>
+						</div>
+					</div>
+				</div>
+				<div class="contact-right">
+					<form action="" method="post" role="form" class="">
+					<div class="contact-row">
+						<div>
+							<input type="text" class="name" name="name" id="name" placeholder="Név" required>
+						</div>
+						<div>
+							<input type="email" class="email" name="email" id="email" placeholder="Email cím" required>
+						</div>
+					</div>
+					<div>
+						<input type="text" class="subject" name="subject" id="subject" placeholder="Üzenet tárgya" required>
+					</div>
+					<div>
+						<textarea name="message" class="message" rows="5" placeholder="Üzenet" required></textarea>
+					</div>
+					<div class="contact-buttons">
+						<button type="reset">Adatok törlése</button>
+						<button type="submit">Üzenet elküldése</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+		<!---------- LÁBLÉC ---------->
+	<footer>
+		<div class="container">
+			<p>2022 | Weboldalt készítette: <a href="https://steamcommunity.com/profiles/76561198863044086/" target="_blank">Belső Péter</a></p>
+		</div>
+	</footer>
+
+<script>
+	/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+
+</body>
+
+
+</html>

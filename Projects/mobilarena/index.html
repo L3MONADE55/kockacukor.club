@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<!---------- Meta információk ---------->
+	<meta charset="utf-8">
+	<meta name="author" content="Belso Peter">
+	<meta name="description" content="MobilArena">
+	<meta name="keywords" content="html, css, html5, menu">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!---------- Google Fonts ---------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	
+	<!-------- Bootstrap Icons -------->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	
+	<!-------- Font Awesome Icons -------->
+	<script src="https://kit.fontawesome.com/02412993d6.js" crossorigin="anonymous"></script>
+
+	<!-------- CSS állomány ---------->
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	
+	<title>MobilArena</title>
+	
+</head>
+	<body >
+		
+		<!---------- NAVIGÁCIÓ ---------->
+		<nav>
+			<img src="img/logo.png" width="260">
+			<ul>
+					<li class ="dropdown"><a href="#">Rovatok</a>
+						<div class = "dropdown-content">
+							<a href="#">Okostelefon</a>
+							<a href="#">Tablet</a>
+							<a href="#">Mobiltelefon</a>
+							<a href="#">Tartozékok</a>
+							<a href="#">Autó+mobil</a>
+							<a href="#">Üzleti negyed</a>
+							<a href="#">Alkalmazások</a>
+							<a href="#">Mobiltelefon</a>
+							<a href="#">Szolgáltatások</a>
+							<a href="#">Tudástár</a>
+							<a href="#">Egyéb</a>
+						</div>
+					</li>
+					<li><a href="#tesztek" class="active">Tesztek</a></li>
+					<li><a href="#hirek">Hírek</a></li>
+					<li><a href="#blogok">Blogok</a></li>
+					<li><a href="#borum">Fórum</a></li>
+					<li><a href="#allasok" class="kek">Állások</a></li>
+					<li><a href="#videok">Videók</a></li>
+					<li><a href="#fotok">Fotók</a></li>
+				<li><a><i class="fa-brands fa-facebook-f rg"></i></a></li>
+				<li><a><i class="fa-brands fa-twitter rg"></i></a></li>
+				<li><a><i class="fa-solid fa-rss rg"></i></a></li>
+				<li><span onclick="openNav()"><i class="fa-solid fa-bars"></i></span></li>
+			</ul>
+		</nav>
+		
+
+		
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">Kezdőlap</a>
+			<a href="#bemutatkozas">Bemutatkozás</a>
+			<a href="#szolgaltatasok">Szolgáltatások</a>
+			<a href="#referenciak">Referenciák</a>
+			<a href="#kapcsolat">Kapcsolat</a>
+		</div>
+		
+		<!---------- TARTALMI RÉSZ ---------->
+		
+		<div class="content">
+			<div class="nem">
+			<table>
+				<th><a><i class="fa-solid fa-house"></i></a></th>
+				<th><a>Cikkek</a></th>
+				<th><a class ="lighter">Okostelefon</a></th>
+			</table>
+			</div>
+			<div class="card">
+				<h1 id="title">Redmi Note 10 Pro - majdnem minden stimmel<h2>
+				<a href="img/1200.jpg" target="_blank"><img src="img/1200.jpg" alt="Redmi Note 10 Pro"></img></a>
+				<p>Topkamerával és csúcskijelzővel villant a Redmi, de nem minden arany, ami fénylik.</p>
+			</div>
+				<div class="dropdown2">
+				  <button onclick="myFunction()" class="dropbtn">1. Külső, kijelző, készülékvédelem ▼</button>
+				  <div id="myDropdown" class="dropdown-con">
+					<a href="#kijelzo">1. Külső, kijelző, készülékvédelem</a>
+					<a href="#foto">2. Fotós képességek</a>
+					<a href="#video">3. Videó, multimédia</a>
+					<a href="#vegszo">4. Adatkommunikáció, üzemidő, végszó</a>
+					<a href="#specs">5. Specifikációk</a>
+				  </div>
+				</div>
+				<div class="texts">
+					<p style="float: left; margin-left: 10px">Írta: <a>Bone123</a></p>
+					<p style="float: right;">2021-04-28 13:00</p>
+				</div>
+				
+				
+				
+			<div class="texts">
+				<br>
+				<h2 id="#kijelzo">Külső, kijelző, készülékvédelem</h2>
+				<p>Az okostelefonos műfaj a hajlítható különlegességeken túl sokkoló újdonságokat már nem tartogat, ám csak azért is érdemes a csúcstechnológiák előretöréséért szurkolni, hogy pár év múlva kikössenek a töredékáron operáló középkategóriában, ahol a Xiaominak akkora termékpalettája van, hogy egy kamiont meg lehetne tölteni vele. 80 ezer forintra esve a <a>Poco X3 NFC</a> például 120 Hz-es IPS panelt és remek kameraszettet kínál, 130 környékére várva a <a>Poco F3</a> pedig AMOLED-re és csúcshardverre vált – a kettő között aztán magas képfrissítéssel, sokrétű lencserendszerrel, extrákkal és gyorstöltővel egymás hegyén-hátán kapaszkodnak figyelemért a különféle ajánlatok (<strong>Redmi Note 10 Pro</strong>, <a>Mi 11 Lite 4G</a>, <a>Mi 10T Lite 5G</a>).</p>
+			</div>
+			<div class="card">
+			<a href="img/1300.jpg" target="_blank"><img src="img/1300.jpg" alt="Redmi Note 10 Pro"></img></a>
+			</div>
+			<p style="text-align: center">[+]</p>
+			<div class="texts">
+				<br>
+				<p>Mindez a választás szempontjából remek, viszont csúszott már szoftverhiba a gépezetbe pont a kismillió telefonra szétosztott figyelem miatt, úgyhogy némi tisztázás ráférne a felső-középkategóriára, ahol csak Snapdragon 732G-s mobilból három figyel a polcokon. Az X3 NFC az árra, a Mi 11 Lite a csúcsszériát idéző küllemre és a könnyű hordozásra, a Note 10 Pro pedig 108 megapixeles hátlapi főkamerájára gyúr, mert igen: elérte a 120 ezres árszintet a megapixel döbbenet, és akkor van még másik négy optika az itt látható, Mi Fan Festival különkiadású házon szétszórva. Más kérdés, hogy épp a hátlapi szett rondít bele a telefon esztétikájába és egyensúlyába, amitől az billeg az asztallapon, elöl a 16 megapixeles szelfilyuk mindenesetre apró, és hatalmas, 6,67”-es Super AMOLED panel veszi körbe.</p>
+			</div>
+			<div class="card">
+			<a href="img/1400.jpg" target="_blank"><img src="img/1400.jpg" alt="Redmi Note 10 Pro"></img></a>
+			</div>
+				<div class="tables">
+				<table>
+				  <tr>
+				    <th colspan="6">Kijelző-teszt</th>
+				  </tr>
+				  <tr>
+					<th>Mérés</th>
+					<th>Redmi Note 10 Pro</th>
+					<th>Xiaomi Mi 11 Lite 4G</th>
+					<th>OnePlus Nord</th>
+					<th>Xiaomi Mi 10T Lite</th>
+					<th>Samsung Galaxy A52</th>
+				  </tr>
+				  <tr>
+					<td>Képátló</td>
+					<td>6,67 hüvelyk</td>
+					<td>6,55 hüvelyk</td>
+					<td>6,44 hüvelyk</td>
+					<td>6,67 hüvelyk</td>
+					<td>6,50 hüvelyk</td>
+				  </tr>
+				  <tr>
+					<td>Felbontás</td>
+					<td>1080 x 2400</td>
+					<td>1080 x 2400</td>
+					<td>1080 x 2400</td>
+					<td>1080 x 2400</td>
+					<td>1080 x 2400</td>
+				  </tr>
+				  <tr>
+					<td>Technológia</td>
+					<td>AMOLED</td>
+					<td>AMOLED</td>
+					<td>Fluid AMOLED</td>
+					<td>IPS LCD</td>
+					<td>Super AMOLED</td>
+				  </tr>
+				  <tr>
+					<td>Képfrissítés</td>
+					<td>120 Hz</td>
+					<td>90 Hz</td>
+					<td>90 Hz</td>
+					<td>120 Hz</td>
+					<td>90 Hz</td>
+				  </tr>
+				  <tr>
+					<td>Fehér képernyő</td>
+					<td>441 / 1061 nit</td>
+					<td>475 / 795 nit</td>
+					<td>583 / 610 nit</td>
+					<td>534 nit</td>
+					<td>441 / 920 nit</td>
+				  </tr>
+				  <tr>
+					<td>Fehér képernyő (min.)</td>
+					<td>2,5 nit</td>
+					<td>1,9 nit</td>
+					<td>3,2 nit</td>
+					<td>1,9 nit</td>
+					<td>1,6 nit</td>
+				  </tr>
+				  <tr>
+					<td>Fekete fényerő</td>
+					<td>0 nit</td>
+					<td>0 nit</td>
+					<td>0 nit</td>
+					<td>0,29 nit</td>
+					<td>0 nit</td>
+				  </tr>
+				  <tr>
+					<td>Kontrasztarány</td>
+					<td>végtelen</td>
+					<td>végtelen</td>
+					<td>végtelen</td>
+					<td>1841:1</td>
+					<td>végtelen</td>
+				  </tr>
+				  <tr>
+					<td>Színhőmérséklet</td>
+					<td>7520 / 6508 K + kézi</td>
+					<td>7320 K + kézi</td>
+					<td>7321 / 6756 K + kézi</td>
+					<td>7717 K + kézi</td>
+					<td>7180 / 6661 K + kézi</td>
+				  </tr>
+				</table>
+				</div>
+			<div class="texts">
+				<br>
+				<p>Ne köntörfalazzuk: abszolút csúcskategóriás megjelenítőt kapunk 1080 x 2400 tűéles pixelen, mínusz a nem bele, hanem az oldalra költözött, de villámgyors ujjlenyomat-olvasó. Megvan az 1000 nit feletti napfény alatti fénysűrűség a tökéletes láthatósághoz, az általában makulátlan 120 Hz-es képfrissítés, a kitűnő betekintési szögek, a kirobbanó színek egy sor kalibrációval és sötét témával, a HDR10 támogatás és a perfekt érintésérzékelés. Innentől kezdve pedig nehezebb a mobil esetleges gyenge pontjain fogást találni, hiszen mindig visszatéved a tekintet a készülék legfőbb erősségére. A kevés káva ellenére fénymérő, közelségérzékelő és beszédhangszóró odafért erre az oldalra, és bár értesítő LED nem, elegánsan villan fel a panel két széle, ha közlendője van.</p>
+			</div>
+			<div class="card">
+			<a href="img/1500.jpg" target="_blank"><img src="img/1500.jpg" alt="Redmi Note 10 Pro"></img></a>
+			</div>
+			<p style="text-align: center">[+]</p>
+			<div class="texts">
+				<br>
+				<p>A műanyag ház mondjuk kifejezetten csúszós lett, úgyhogy érdemes a mellékelt tokot ráöltöztetni, amitől persze a 164 x 76,5 x 8,1 milliméteres és 193 grammos, amúgy is kétkezes jószág még terebélyesebb lesz, a fogás viszont stabilabb. Az összeszerelés makulátlan, a megjelenítőt Gorilla Glass 5 üveglap védi és IP53 alapon némi por- és csepp elleni vizsga is megvan, persze beázásra nem vonatkozik a jótállás. Kifejezetten előnyére válik a telefonnak a különkiadás üde, tavaszias festése, de jól mutat a szürke, hagyományos variáció is, a keskeny oldalélek pedig nem nélkülöznek egyetlen fontos terepelemet sem.</p>
+			</div>
+			<div class="card">
+			<a href="img/1600.jpg" target="_blank"><img src="img/1600.jpg" alt="Redmi Note 10 Pro"></img></a>
+			</div>
+			<p style="text-align: center">[+]</p>
+			<div class="texts">
+				<br>
+				<p>Alulra mikrofon, hangszóró és USB-C port került, a dobozban mellékelt kábellel és 33 wattos gyorstöltővel (jó reggelt, Apple, Samsung, Nokia). Felülre újabb mikrofon, sztereó hangzást biztosító második hangszóró, infra és jack kimenet (jó reggelt, majd’ minden csúcskészülék). Jobbra még pont elérhető hangerőszabályzó és bekapcsoló ujjlenyomat-olvasóval, balra végül a csomagolt SIM-tűvel kitolható, tripla tálca, amire két nanoSIM és egy microSD egyszerre jegyet válthat (jó reggelt, sok rivális). A doboz a <a>Xiaomi.hu</a>-tól jutott el hozzánk.</p>
+			</div>
+			<div class="card">
+			<a href="img/1700.jpg" target="_blank"><img src="img/1700.jpg" alt="Redmi Note 10 Pro"></img></a>
+			</div>
+			<p style="text-align: center">[+]</p>
+			<div class="texts">
+				<br>
+				<p>Ha az 5020 mAh-n gigantikus telepet is hozzáveszem, csak a Qi töltés, az elithardver és a topkategóriás kameraszett hiányzik, hogy a Note 10 Prót csúcsmobilnak hívjuk, cserébe sokkal olcsóbb egy <a>Mi 11 Ultránál</a>, kellő extrával, hogy az ár/érték verseny koronájára fájjon a foga. Oké: ez a modell 5G modemet nem kapott, és a Poco F3 minimális felárral ezt is elhozza, A két 2,3 GHz-es és hat 1,8 GHz-es Kryo 470 processzormagot bevető, 8 nm-es Snapdragon 732G mindenesetre tisztesen helytáll, és egy-egy váratlan döccenést vagy az Asphalt 9-szintű játékokat leszámítva az Adreno 618 GPU-val folyamatos és gördülékeny működés is megvan.</p>
+			</div>
+			<div class="card">
+			<a href="img/1800.jpg" target="_blank"><img src="img/1800.jpg" alt="Redmi Note 10 Pro"></img></a>
+			</div>
+			<div class="tables">
+				<table>
+				  <tr>
+				    <th colspan="7">Teljesítmény-teszt</th>
+				  </tr>
+				  <tr>
+					<th>Benchmark</th>
+					<th>Redmi Note 10 Pro</th>
+					<th>Xiaomi Mi 11 Lite 4G</th>
+					<th>OnePlus Nord</th>
+					<th>Xiaomi Mi 10T</th>
+					<th>Nokia 7.2</th>
+					<th>Xiaomi Mi 10T Lite</th>
+				  </tr>
+				  <tr>
+					<td>Rendszerchip</td>
+					<td>Snapdragon 732G</td>
+					<td>Snapdragon 732G</td>
+					<td>Snapdragon 765G</td>
+					<td>Snapdragon 865</td>
+					<td>Snapdragon 660</td>
+					<td>Snapdragon 750G</td>
+				  </tr>
+				  <tr>
+					<td>AnTuTu Bench. 8.x</td>
+					<td>284177 pont</td>
+					<td>289251 pont</td>
+					<td>329345 pont</td>
+					<td>585190 pont</td>
+					<td>173294 pont</td>
+					<td>338831 pont</td>
+				  </tr>
+				  <tr>
+					<td>Geekbench 5 (single/multi)</td>
+					<td>547 / 1766 pont</td>
+					<td>566 / 1802 pont</td>
+					<td>602 / 1910 pont</td>
+					<td>908 / 3343 pont</td>
+					<td>334 / 1445 pont</td>
+					<td>660 / 2025 pont</td>
+				  </tr>
+				  <tr>
+					<td>GFXBench Car Chase onscreen</td>
+					<td>15 fps</td>
+					<td>17 fps</td>
+					<td>19 fps</td>
+					<td>42 fps</td>
+					<td>8,1 fps</td>
+					<td>16 fps</td>
+				  </tr>
+				  <tr>
+					<td>GFXBench Car Chase offscreen</td>
+					<td>18 fps</td>
+					<td>19 fps</td>
+					<td>21 fps</td>
+					<td>51 fps</td>
+					<td>8,9 fps</td>
+					<td>19 fps</td>
+				  </tr>
+				  <tr>
+					<td>GFXBench Man. onscreen</td>
+					<td>36 fps</td>
+					<td>41 fps</td>
+					<td>49 fps</td>
+					<td>50 fps</td>
+					<td>29 fps</td>
+					<td>39 fps</td>
+				  </tr>
+				  <tr>
+					<td>GFXBench Man. offscreen</td>
+					<td>42 fps</td>
+					<td>45 fps</td>
+					<td>53 fps</td>
+					<td>125 fps</td>
+					<td>22 fps</td>
+					<td>46 fps</td>
+				  </tr>
+				  <tr>
+					<td>AndroBench Sequential Read</td>
+					<td>508,08 MB/s</td>
+					<td>511,13 MB/s</td>
+					<td>967,3 MB/s</td>
+					<td>1618,82 MB/s</td>
+					<td>278,05 MB/s</td>
+					<td>962,15 MB/s</td>
+				  </tr>
+				  <tr>
+					<td>AndroBench Sequential Write</td>
+					<td>267,01 MB/s</td>
+					<td>258,55 MB/s</td>
+					<td>473,90 MB/s</td>
+					<td>720,67 MB/s</td>
+					<td>168,91 MB/s</td>
+					<td>474,94 MB/s</td>
+				  </tr>
+				</table>
+				</div>
+			<div class="texts">
+				<br>
+				<p>Azért nincs ok a panaszra: az előbbi játék korlátozott fps-e ellenére rendben játszható, egy PUBG vagy Real Racing 3 folyamatosan fut, az alkalmazások pedig pillanatok alatt betöltenek, lévén alsó hangon 128 GB-os UFS 2.2 tároló jár 6 GB RAM mellé, míg az itt mutogatott változat 8 GB RAM-ot vet be. Az Android 11-re húzott <a>MIUI 12-ről errefelé mindent leírtunk</a>, a lényeg: remekül optimalizált, letisztult, szépen testreszabható a felület, jól működő gesztusvezérléssel, sötét móddal és sokrétű paraméterezéssel. Megvan a távirányító (csak nem programozható), minden telefonos és üzenetküldő funkció, egy rakás Xiaomi alkalmazás és szolgáltatás, és persze a Google teljes felhozatala, naprakész biztonsági frissítésekkel és többéves MIUI támogatás ígéretével – lapozhatunk is a kamerákra.</p>
+			</div>
+			<p><i>A cikk még nem ért véget, kérlek, lapozz!</i></p>
+				<div class="dropdown2">
+				  <button onclick="myFunction()" class="dropbtn">1. Külső, kijelző, készülékvédelem ▼</button>
+				  <div id="myDropdown" class="dropdown-con">
+					<a href="#kijelzo">1. Külső, kijelző, készülékvédelem</a>
+					<a href="#foto">2. Fotós képességek</a>
+					<a href="#video">3. Videó, multimédia</a>
+					<a href="#vegszo">4. Adatkommunikáció, üzemidő, végszó</a>
+					<a href="#specs">5. Specifikációk</a>
+				  </div>
+				</div>
+				<button class="dropbtn" style="float: right; margin-bottom: 50px;">Következő oldal</button>
+				<p> </p>
+
+		</div>
+
+		
+			<!---------- LÁBLÉC ---------->
+
+	<script>
+		/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	  document.getElementById("main").style.marginLeft = "250px";
+	  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	  document.getElementById("main").style.marginLeft = "0";
+	  document.body.style.backgroundColor = "white";
+	}
+	
+	/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	  document.getElementById("myDropdown").classList.toggle("show");
+	}
+	
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+	</script>
+	</body>
+	
+
+</html>

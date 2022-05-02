@@ -1,0 +1,86 @@
+body {
+	background-color: black; /* Háttérszín HEX kódban */
+	font-family: Tahoma, Verdana; /* Betűcsalád beállítása mindig az első helyen lévő töltődik 	be, ha az elérhető */
+	font-size: 15pt;	/* betűméret */
+}
+
+h1, h2 {
+	text-align: left; 	/*szöveg balra igazítása */
+	color: white; 	/*betűszín*/
+	margin-left: 250px;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+p {
+	text-align: justify;	/* Bekezdések sorkizárttá tétele */
+	margin-bottom: 40px;	/*margó*/
+	margin: 10px 40px;
+	color: white;
+	width: 70%;
+	margin-left: 270px;
+}
+
+a:link {
+	color: yellow;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+a.gomb {
+	text-decoration: none;	/*nem lesz aláhúzás a linkeken*/
+	background-color: red;
+	padding: 15px 25px;	/*belső margó*/
+	text-align: center;
+	display: inline-block;
+	float: right;	/*kép lebegtetése*/
+}
+
+a.gomb:hover {
+	background-color: tomato;
+}
+
+#lajos {
+	color: white;
+	margin-left: 150px;
+}
+
+#nagyszünet {
+	border-style: outset;
+	margin: auto;
+	width: 25%;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	padding: 10px;
+}
+
+#Bookmarks {
+	text-decoration: none;
+	margin-left: 250px;
+}
+
+img.kep {
+	width:300px;
+	float:right;
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-bottom: 70px;
+	border: 0px solid #ddd;
+	border-radius: 15px;
+}
+hr {
+	width: 75%;
+}

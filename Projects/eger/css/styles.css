@@ -1,0 +1,69 @@
+#szoveg {
+	background-color: pink;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 80%;
+	margin: auto;
+	padding: 15px;
+}
+
+h1 {
+	outline: 5px dashed tomato;
+	font-family: Tahoma;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2, h3 {
+	font-family: Tahoma;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	padding: 0px;
+	margin: 25px 0px 0px 0px;
+}
+pre {
+	float: right;
+	text-align: center;
+	font-family: Times;
+}
+
+body {
+	background-color: tomato;
+	font-size: 22px;
+	text-align: justify;
+}
+
+p {
+	margin: 0px 150px 0px 150px;
+}
+
+
+
+a:link {
+	color: orange;
+	text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
+
+#Bookmarks {
+	text-align: center;
+	font-size: 25px;
+	background-color: white;
+	width: 650px;
+	border: 15px solid tomato;
+	padding: 20px;
+	margin: auto;
+}
