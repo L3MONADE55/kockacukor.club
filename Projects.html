@@ -7,6 +7,14 @@
 		.content a:before{
 			content:"☺";
 		}
+		.content p {
+			margin-left: 20px;
+			display: inline;
+		}
+		.content p:hover{
+			color: red;
+			cursor: help;
+		}
 		
 		
 		a {
@@ -22,25 +30,55 @@
 			text-decoration: none;
 		}
 		
+		.preview{
+			position: absolute;
+			left:0;
+			right:0;
+			margin: 0 auto;
+		}
+		
+		iframe {
+			display: block;
+			margin: 0 auto;
+			width: 1200px;
+			height: 500px;
+			box-shadow: 0 10px 20px -6px rgb(0 0 0 / 50%);
+			border: 1px solid grey;
+		}
+		
+		.back{
+			position: absolute;
+			bottom: 0;
+			padding: 50px;
+		}
 		</style>
+		<script src="script.js"></script>
+		
 	</head>
 
 	<body>
 		<div class="content">
 			<h1>Projektek</h1>
-			<p>-------------------</p>
-			<a href="Projects/cat/index.html">cat</a><br>
-			<a href="Projects/csgo/index.html">csgo</a><br>
-			<a href="Projects/mobilarena/index.html">mobilarena</a><br>
-			<a href="Projects/eger/index.html">eger</a><br>
-			<a href="Projects/retek/index.html">retek</a><br>
-			<a href="Projects/tapioszecso/index.html">tápiószecső</a><br>
-			<a href="Projects/lorem/index.html">lorem</a><br>
-			<a href="Projects/orarend1/index.html">órarend1</a><br>
-			<a href="Projects/orarend2/index.html">órarend2</a><br>
-			<a href="Projects/vitya/index.html">viktor</a><br>
-			<a href="Projects/zsiraf/index.html">zsiraf</a><br>
-			<a href="Projects/uzenetform/index.html">üzenet form</a><br>
+			<h3>-------------------</h3><br>
+			<a href="Projects/cat/index.html">cat</a><p id="cat">♥</p><br>
+			<a href="Projects/csgo/index.html">csgo</a><p id="csgo">♥</p><br>
+			<a href="Projects/mobilarena/index.html">mobilarena</a><p id="mobilarena">♥</p><br>
+			<a href="Projects/eger/index.html">eger</a><p id="eger">♥</p><br>
+			<a href="Projects/retek/index.html">retek</a><p id="retek">♥</p><br>
+			<a href="Projects/tapioszecso/index.html">tápiószecső</a><p id="tapioszecso">♥</p><br>
+			<a href="Projects/lorem/index.html">lorem</a><p id="lorem">♥</p><br>
+			<a href="Projects/orarend1/index.html">órarend1</a><p id="orarend1">♥</p><br>
+			<a href="Projects/orarend2/index.html">órarend2</a><p id="orarend2">♥</p><br>
+			<a href="Projects/vitya/index.html">viktor</a><p id="vitya">♥</p><br>
+			<a href="Projects/zsiraf/index.html">zsiraf</a><p id="zsiraf">♥</p><br>
+			<a href="Projects/uzenetform/index.html">üzenet form</a><p id="uzenetform">♥</p><br>
 		</div>
+		
+		<div class="preview">
+			<iframe src="nosignal.html" id="iframe"></iframe><br>
+		</div>
+		
+		<a href="index.html" class="back"">vissza</a>
+		<p style="text-align: right; padding: 50px; position: absolute; bottom: 0; right: 0;"><b>Crafted with <span style="color: red; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-size:150%">♥</span> by <a href="https://steamcommunity.com/profiles/76561198863044086" target="_blank" style="color: red; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; text-decoration: none;"><b>P e t r</b></a></p>
 	</body>
 </html>
