@@ -46,6 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
     document.querySelector('#uzenetform').addEventListener('click', changeIframe.bind(null, "uzenetform"))
 });
+document.addEventListener('DOMContentLoaded', function () {
+    
+    document.querySelector('#rajzold').addEventListener('click', changeIframe.bind(null, "rajzold"))
+});
 
 
 
