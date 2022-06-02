@@ -37,7 +37,8 @@ a{
 
 .section-1 a{
     font-size: 1.5rem;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 /* section 2 */
 .section-2{
@@ -111,3 +112,12 @@ tr:nth-child(2) {
     -webkit-animation: pulsate 3s ease-out;
     -webkit-animation-iteration-count: infinite; 
   }
+
+.count p {
+    display: inline;
+}
+
+h4.count {
+    margin: 0px !important;
+    padding: 0px !important;
+}
